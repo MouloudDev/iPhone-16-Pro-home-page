@@ -1,7 +1,9 @@
+import Nav from './components/Nav/index.jsx';
+
 function App() {
   return (
     <>
-     <h1 className='text-red-500'>Hello iPhone</h1>
+     <Nav />
     </>
   )
 }

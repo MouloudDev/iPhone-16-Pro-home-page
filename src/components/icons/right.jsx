@@ -1,3 +1,4 @@
+const Right = () => { return (
 <svg
   width="7"
   height="11"
@@ -11,3 +12,5 @@
     fill="#2997FF"
   />
 </svg>
+); };
+export default Right;

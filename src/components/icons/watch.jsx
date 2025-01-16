@@ -1,3 +1,4 @@
+const Watch = () => { return (
 <svg
   width="20"
   height="20"
@@ -11,3 +12,5 @@
       fill="#2997FF"
     />
 </svg>
+); };
+export default Watch;

@@ -17,3 +17,57 @@ body {
   border-color: #3b3b3b;
   user-select: none;
 }
+
+@layer utilities {
+  .mobile-nav-list {
+    @apply transition-colors duration-[320ms] ease-[cubic-bezier(0.4,0,0.6,1)]
+    text-white/80 hover:text-white text-[28px] leading-[1.1428571429] font-semibold tracking-[0.007em]
+    no-underline w-auto max-w-none h-auto flex items-center justify-between
+    pb-1 pl-[48px] pr-[48px] whitespace-normal cursor-pointer
+  }
+
+  .search-input {
+    @apply pointer-events-auto w-full h-full bg-transparent border-none rounded-none text-[#E8E8ED] text-[28px] leading-[1.1428571429] font-semibold tracking-[.007em] focus:border-none
+    focus:outline-none placeholder:text-[#86868b] placeholder:text-3xl placeholder:font-semibold
+    placeholder:relative placeholder:top-1/2 placeholder:-translate-y-[2px]
+  }
+
+  .mobile-nav-heading {
+    @apply text-start text-[#868688] text-[17px] leading-tight
+  }
+
+  .nav-search-list-item {
+    @apply flex items-center gap-2 mt-3 px-3 w-full text-[#e8e8ed] text-[17px] hover:text-white hover:bg-[#1d1d1f] font-semibold leading-[26px] cursor-pointer pt-1 pb-[3px]
+    transition-all duration-[20ms] ease-[cubic-bezier(0.4,0,0.6,1)];
+  }
+
+  .nav-profile-list-item {
+    @apply flex items-center gap-2 mt-3 w-fit text-[#e8e8ed] text-[17px] font-semibold leading-[26px] cursor-pointer pt-1 pb-[3px]
+  }
+
+  .cart-heading {
+    @apply text-[28px] text-[#e8e8ed] leading-4 tracking-[.008em] font-semibold mb-[30px]
+  }
+
+  .laptop-nav-link {
+    @apply text-xs font-normal -tracking-[0.01em] whitespace-nowrap opacity-80 hover:opacity-100 transition-opacity duration-150 h-full flex items-center
+  }
+
+  .nav-dropdown-col-heading {
+    @apply text-[17px] leading-[1.333] font-medium text-gray-600 tracking-tighter
+  }
+
+  /* Primary column link */
+  .nav-dropdown-prim-col-list-item {
+    @apply p-0 pt-3 w-fit not-italic font-semibold leading-[1.1667] text-[28px] text-[#e8e8ed] no-underline opacity-90 hover:opacity-100 hover:text-white transition-all duration-[320ms] ease-[cubic-bezier(.4,0,.6,1)]
+  }
+
+  /* Secondary column link */
+  .nav-dropdown-sec-col-list-item {
+    @apply not-italic font-semibold text-[17px] leading-[1.47] tracking-normal p-[8px_0px_6px] mb-[-5px] text-[rgb(232,232,237)] opacity-90 hover:opacity-100 no-underline transition-all duration-[320ms] ease-[cubic-bezier(0.4,0,0.6,1)]
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center
+  }
+}
