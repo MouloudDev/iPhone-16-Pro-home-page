@@ -11,7 +11,11 @@ export default {
       }
     },
     screens: {
-      'laptop': '833px'
+      'laptop': '833px',
+      '480px': '480px',
+      '734px': '734px',
+      '1068px': '1068px',
+      '1440px': '1440px'
     }
   },
   plugins: [],

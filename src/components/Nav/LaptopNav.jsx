@@ -14,7 +14,7 @@ function LaptopNav() {
 
   return (
     <div
-      className='hidden laptop:block relative h-11'
+      className='hidden laptop:block relative z-50 h-11'
       onMouseLeave={hideContent}
     >
       <div className='absolute inset-0 z-50 flex justify-between items-center px-2 max-w-5xl mx-auto h-full'>
@@ -33,14 +33,14 @@ function LaptopNav() {
 
         <SearchIcon
           className={SharedCls}
-          onClick={() => setCurrContent('search')}
+          onClick={() => setCurrContent(currContent === 'search' ? null : 'search')}
           onMouseEnter={() => {
             if (currContent !== 'search') hideContent();
           }}
         />
         <BagIcon
           className={SharedCls}
-          onClick={() => setCurrContent('cart')}
+          onClick={() => setCurrContent(currContent === 'cart' ? null : 'cart')}
           onMouseEnter={() => {
             if (currContent !== 'cart') hideContent();
           }}
