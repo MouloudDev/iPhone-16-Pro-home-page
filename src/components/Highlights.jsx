@@ -126,8 +126,8 @@ const Highlights = () => {
       }
 
       // -20 to leave a space between the nav and the bottom edge of the view port;
-      // -50 to set the max height of the nav wrapper (sectionHeight - 50);
-      const navWrapperHeight = Math.min(scrolledHeight -20, sectionHeight - 50);
+      // -100 to set the max height of the nav wrapper (sectionHeight - 100);
+      const navWrapperHeight = Math.min(scrolledHeight -20, sectionHeight - 100);
       navWrapper.style.height = `${navWrapperHeight}px`
     };
 
@@ -146,7 +146,7 @@ const Highlights = () => {
   return (
     <section
       id="hl-section"
-      className="relative pt-28 pb-40 bg-[#1d1d1f] text-[#f5f5f7]"
+      className="relative pt-28 pb-56 bg-[#1d1d1f] text-[#f5f5f7]"
     >
       {/* Section header */}
       <div className="734px:flex justify-between items-end w-[85vw] ml-[clamp(10px,7vw,200px)]">
