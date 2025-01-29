@@ -99,7 +99,7 @@ const CloserLook = () => {
       </div>
 
       <div className='flex-center overflow-hidden mt-16 mb-4 mx-auto p-4 min-w-[320px] min-h-[180px] max-w-[480px] max-h-[480px] 480px:max-w-[734px] 480px:max-h-[560px] 734px:max-w-[935px] 734px:max-h-[628px] 1068px:max-w-[1260px] 1068px:max-h-[680px] 1440px:max-w-[1680px] 1440px:max-h-[740px]'>
-        <img id='currImg' src={img} className='block w-full h-auto object-cover scale-125 480px:border 1440px:scale-100' alt='iPhone'/>
+        <img id='currImg' src={img} className='block w-full h-auto object-cover scale-125 1440px:scale-100' alt='iPhone'/>
       </div>
 
       <div id='color-nav-wrapper' className='absolute top-2 left-1/2 -translate-x-1/2 flex flex-center items-end'>
