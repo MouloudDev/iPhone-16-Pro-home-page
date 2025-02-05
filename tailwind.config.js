@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -11,12 +12,11 @@ export default {
       }
     },
     screens: {
-      'laptop': '833px',
+      'laptop': '833px', // Used in <Nav />
       '480px': '480px',
       '734px': '734px',
       '1068px': '1068px',
       '1440px': '1440px'
     }
   },
-  plugins: [],
 }

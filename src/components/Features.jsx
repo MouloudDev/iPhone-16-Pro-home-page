@@ -12,10 +12,10 @@ const Features = () => {
   const isLastImg = currImgIdx === ftCrslImgs.length -1;
 
   const stateClasses = {
-    activeBtnCls: "cursor-pointer bg-[#333234] hover:bg-[#49494cb9] active:bg-[#39393cbd] transition-colors duration-300 group",
-    inactiveBtnCls: "bg-[#1b1918]",
-    activeIconCls: "fill-[#ffffffcc] group-hover:fill-white transition-colors duration-300",
-    inactiveIconCls: "fill-[#767677]"
+    activeBtnCls: 'cursor-pointer bg-[#333234] hover:bg-[#49494cb9] active:bg-[#39393cbd] transition-colors duration-300 group',
+    inactiveBtnCls: 'bg-[#1b1918]',
+    activeIconCls: 'fill-[#ffffffcc] group-hover:fill-white transition-colors duration-300',
+    inactiveIconCls: 'fill-[#767677]'
   };
 
   useEffect(() => {
@@ -33,10 +33,10 @@ const Features = () => {
   }, [currImgIdx])
 
   return (
-    <section className="mt-20 pb-48">
+    <section className='mt-20 pb-48'>
       <div>
-        <h2 className="hidden">Design</h2>
-        <h3 className="text-[40px] text-[#c8c2bd] text-center font-semibold leading-[1.1] 734px:text-[64px] 1068px:text-[80px]">
+        <h2 className='hidden'>Design</h2>
+        <h3 className='text-[40px] text-[#c8c2bd] text-center font-semibold leading-[1.1] 734px:text-[64px] 1068px:text-[80px]'>
           Strength. Beauty. <br />
           <span className='text-glow text-white'>Titanium.</span>
         </h3>
