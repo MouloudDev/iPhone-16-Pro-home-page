@@ -38,7 +38,7 @@ const AiGallery = () => {
   }
 
   return (
-    <div className='480px:max-w-[70%] mx-auto'>
+    <div>
       {/* Show this in large screens */}
       <div className='hidden 1068px:block'>
         <div className='flex-center gap-7 p-2'>
@@ -56,13 +56,15 @@ const AiGallery = () => {
           )}
         </div>
 
-        {sections.map(({Component}, idx) =>
-          currSecIdx === idx && <Component key={idx}/>
-        )}
+        <div className='w-[90%] max-w-6xl mx-auto'>
+          {sections.map(({Component}, idx) =>
+            currSecIdx === idx && <Component key={idx}/>
+          )}
+        </div>
       </div>
 
       {/* Show this in small to medium screens */}
-      <div className='1068px:hidden'>
+      <div className='px-[clamp(24px,20%,10%)] 1068px:hidden'>
         <Productivity />
         <ExpressYourself />
         <Siri />

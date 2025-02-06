@@ -29,7 +29,7 @@ const AppleIntelligence = () => {
         <img src={mn_xl} className='hidden 1440px:block w-full max-w-[1036px] h-auto object-cover' alt='iPhone' />
       </div>
 
-      <div className='bg-[linear-gradient(black_0%,_rgb(19,19,19)_15%)] bg-bg-repeat px-7 pb-24'>
+      <div className='bg-[linear-gradient(black_0%,_rgb(19,19,19)_15%)] bg-bg-repeat pb-24'>
         <p className='mx-auto my-8 h-full w-[clamp(200px,60%,500px)] 1068px:w-[clamp(200px,70%,750px)] text-center text-[#86868b] font-semibold text-[19px] 734px:text-[17px] 1068px:text-[21px]'>
           iPhone 16 Pro is built for Apple Intelligence, the personal intelligence system that helps you
           <strong className='text-[#f5f5f7]'> write, express yourself, and get things done effortlessly</strong>.

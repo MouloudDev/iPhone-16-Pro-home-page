@@ -2,7 +2,7 @@ import { aiPrivacyImg } from "../../constants/apple-intelligence"
 
 const AiPrivacy = () => {
   return (
-    <div id="ai-privacy" className='mt-32'>
+    <div id="ai-privacy" className='mt-32 px-[clamp(24px,20%,10%)]'>
       <div className="w-fit 480px:mx-auto">
         <img src={aiPrivacyImg} className='block object-cover w-[50px] h-[66px] 480px:w-[62px] 480px:h-[82px]' alt='Apple privacy' />
       </div>
