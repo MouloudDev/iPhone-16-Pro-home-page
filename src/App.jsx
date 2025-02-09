@@ -5,6 +5,7 @@ import Nav from './components/Nav/index.jsx';
 import Features from './components/Features.jsx';
 import AppleIntelligence from './components/AppleIntelligence';
 import CameraControl from './components/CameraControl.jsx';
+import AudioVideo from './components/AudioVideo.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
      <Features />
      <AppleIntelligence />
      <CameraControl />
+     <AudioVideo />
     </>
   )
 }

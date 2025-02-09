@@ -121,7 +121,7 @@ function Productivity() {
             glance.
           </p>
           <div className="flex-center overflow-hidden w-full">
-            <img src={img2.xsm} className="block border 480px:hidden w-full max-w-[300px] h-auto"/>
+            <img src={img2.xsm} className="block 480px:hidden w-full max-w-[300px] h-auto"/>
             <img src={img2.lg} className="hidden 480px:block w-full max-w-[350px] h-auto"/>
           </div>
         </div>
