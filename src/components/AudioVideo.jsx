@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { video2Imgs, videoImgs, videoPrevImgs } from '../constants/audio-video'
 import VideoPlayIcon from './icons/VideoPlayIcon';
 
